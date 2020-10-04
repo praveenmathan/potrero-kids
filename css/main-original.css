@@ -101,7 +101,6 @@
 @import url("layout.css");
 @import url("font-awesome.css");
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700|Dosis|Patrick+Hand);
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 
 /**/
 
@@ -127,7 +126,7 @@
 .ce_title,
 .comments-area .comments_title,
 .comments-area .comment-reply-title {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: Patrick Hand;
     font-weight: 400;
     font-size: 50px;
     line-height: 50px;
@@ -190,7 +189,7 @@ input[type="submit"],
 .mini-cart .button,
 .not_found,
 .milestone_desc {
-    font-family: 'Source Sans Pro', sans-serif !important
+    font-family: Patrick Hand !important
 }
 
 div.woocommerce form p.form-row label:not(.checkbox),
@@ -207,7 +206,7 @@ div.woocommerce form p.form-row label:not(.checkbox),
 
 html,
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: Dosis;
     font-weight: 400;
     font-size: 19px;
     line-height: 26px;
@@ -582,7 +581,7 @@ form.checkout h3,
 .woocommerce-page span.onsale,
 .product.woocommerce.add_to_cart_inline ins,
 .product.woocommerce.add_to_cart_inline del {
-    font-family: 'Source Sans Pro', sans-serif !important;
+    font-family: Patrick Hand !important;
 }
 
 .price ins,
@@ -4582,7 +4581,6 @@ img.image-type.noborder {
 .testimonial .quote {
     position: relative;
     z-index: 1;
-    font-size: 20px;
 }
 
 .testimonial .quote>*:first-child {
@@ -5649,9 +5647,7 @@ aside .cws-widget #calendar_wrap {
 /*
 \WIDGETS
 */
-.ce p {
-    font-family: 'Source Sans Pro', sans-serif;
-}
+
 
 /*
 SHORTCODES
@@ -9659,7 +9655,7 @@ img.emoji {
 
 .widget.timetable_sidebar_box .box_header {
     margin-bottom: 0;
-    font-family: 'Source Sans Pro', sans-serif !important;
+    font-family: Patrick Hand !important;
     color: #26b4d7!important;
 }
 
@@ -10005,7 +10001,7 @@ aside .tt_upcoming_events li .tt_upcoming_events_event_container:hover .tt_event
     line-height: 65px;
     font-weight: 400;
     font-style: normal;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: Patrick Hand;
     padding: 0px 0px 0px 0px;
     text-decoration: none;
     background-color: transparent;
