@@ -5676,7 +5676,7 @@ input[type='submit'],
     display: inline-block;
     font-size: 1.3em;
     line-height: 1;
-    padding: 8px 34px;
+    padding: 10px 34px;
     border-radius: 7px;
     border: none;
     color: #fff;
@@ -6923,7 +6923,7 @@ a:hover>.cws_fa_wrapper> .cws_fa:after {
 .cws_callout .button_section>a {
     position: relative;
     font-size: 1.58em;
-    padding: 8px 16px;
+    padding: 10px 16px;
     line-height: 1;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
