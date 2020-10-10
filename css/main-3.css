@@ -135,6 +135,15 @@
     color: #f15a29;
 }
 
+.ce_title_contact {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #f15a29;
+    margin-bottom: 10px !important;
+}
+
 h3.ce_title span {
     color: #f15a29;
 }
@@ -214,7 +223,7 @@ body {
     line-height: 26px;
     word-spacing: 0px;
     letter-spacing: 0px;
-    color: #9f9e9e;
+    color: #4b4b4b;
 }
 
 .cws-widget ul:not(.tweet_list) li>a,
@@ -1380,7 +1389,7 @@ ol li {
 }
 
 ul li:before {
-    content: "â€¢";
+    content: "\2713 ";
     padding-right: 0.35em;
 }
 
@@ -10203,15 +10212,15 @@ only screen and (min-device-pixel-ratio: 1.5) {
     font-weight: 700;
 }
 .image-border {
+
+}
+.image-border img {
     position: relative;
     border-radius: 18px;
     border-width: 9px;
     border-style: solid;
     border-color: #f15a29;
     padding: 2px;
-}
-.image-border img {
-    border-radius: 8px;
 }
 .ce iframe {
     width: 100%;
