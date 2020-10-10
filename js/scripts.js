@@ -1154,7 +1154,7 @@ function set_sticky(animated) {
     var left = Boolean(jQuery(".page_boxed").length) ? jQuery(".page_boxed").offset().left + "px" : "0";
     var logo_sticky_adjustments;
     var sticky_el_styles = {
-        "position": "fixed",
+        "position": "relative",
         "width": width,
         top: 0,
         "left": left
@@ -2224,7 +2224,7 @@ function revolution_slider() {
                     },
                     arrows: {
                         style: "uranus",
-                        enable: true,
+                        enable: false,
                         hide_onmobile: false,
                         hide_onleave: true,
                         hide_delay: 200,
