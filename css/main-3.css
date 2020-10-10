@@ -6357,7 +6357,7 @@ a:hover>.cws_fa_wrapper> .cws_fa:after {
     min-height: 40px;
     display: inline-block;
     font-size: 1.14em;
-    padding: 0 15px;
+    padding: 10px 25px;
     text-align: center;
     line-height: 40px;
     margin-right: 1px;
@@ -10227,6 +10227,18 @@ only screen and (min-device-pixel-ratio: 1.5) {
     min-height: 100%;
     height: 500px;
 }
+.ce a {
+    font-weight: bold;
+    color: #ea502b;
+}
 table {
-    margin: auto;;
+    margin: auto;
+}
+table th span, table td span {
+    font-style: italic;
+    font-size: 16px;
+}
+.tab_items p span {
+    font-weight: bold;
+    color: #ea502b;
 }
