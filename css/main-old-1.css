@@ -102,16 +102,15 @@
 @import url("font-awesome.css");
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700|Dosis|Patrick+Hand);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
-@import url(https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap);
 
 /**/
 
 .main-nav-container .menu-item a,
 .main-nav-container .menu-item .button_open,
 .mobile_menu_header {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
+    font-family: Patrick Hand;
+    font-weight: 400;
+    font-size: 24px;
     line-height: 34px;
     color: #ffffff;
 }
@@ -132,16 +131,7 @@
     font-weight: 400;
     font-size: 50px;
     line-height: 50px;
-    color: #f15a29;
-}
-
-.ce_title_contact {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 40px;
-    color: #f15a29;
-    margin-bottom: 10px !important;
+    color: #26b4d7;
 }
 
 h3.ce_title span {
@@ -170,7 +160,7 @@ a,
 .select2-drop .select2-results .select2-highlighted,
 .cws-widget .parent_archive .widget_archive_opener,
 .cws-widget .has_children .opener {
-    color: #f15a29;
+    color: #26b4d7;
 }
 
 .page_title h1,
@@ -212,7 +202,7 @@ div.woocommerce form p.form-row label:not(.checkbox),
 #searchform label.screen-reader-text,
 .widget_shopping_cart_content p,
 .woocommerce .woocommerce-tabs .shop_attributes th {
-    color:  #f4a795
+    color: #26b4d7
 }
 
 html,
@@ -223,7 +213,7 @@ body {
     line-height: 26px;
     word-spacing: 0px;
     letter-spacing: 0px;
-    color: #4b4b4b;
+    color: #9f9e9e;
 }
 
 .cws-widget ul:not(.tweet_list) li>a,
@@ -298,13 +288,13 @@ input[type="radio"]:checked:before,
 .site_top_panel .site_top_panel_toggle:after,
 .footer_container .woocommerce-product-search:before,
 .scroll_top {
-    background-color: #f4a795;
+    background-color: #26b4d7;
 }
 
 .tp-leftarrow.round,
 .tp-rightarrow.round,
 .rev_slider_wrapper {
-    background-color: #f4a795 !important;
+    background-color: #26b4d7 !important;
 }
 
 .news .media_part,
@@ -334,16 +324,16 @@ a:hover>.cws_fa_wrapper>i:not(.alt) + .ring,
 .ce .map-border,
 .wp-playlist .mejs-container,
 .lang_bar>div:not(.lang_sel_list_vertical):not(.lang_sel_list_horizontal)>ul:before {
-    border-color: #f15a29;
+    border-color: #26b4d7;
 }
 
 .select2-choice {
-    border-color:  #f4a795 !important;
+    border-color: #26b4d7 !important;
 }
 
 .select2-drop,
 .select2-drop-active {
-    border-color:  #f4a795 !important;
+    border-color: #26b4d7 !important;
 }
 
 .post_info,
@@ -369,7 +359,7 @@ input[type=checkbox]:checked:before,
 .site_top_panel .cws_social_links .cws_social_link,
 .site_top_panel #top_panel_links .search_icon,
 .site_top_panel .mini-cart {
-    color: #f15a29;
+    color: #26b4d7;
 }
 
 .tweet_even:after {
@@ -431,18 +421,14 @@ a:hover>.cws_fa_wrapper .cws_fa:not(.alt),
 body.wave-style hr,
 .item .date.def_style .month:before,
 .scroll_top:hover {
-    background-color: #4b4b4b;
+    background-color: #fec20b;
 }
 
 .cws-widget .search-form {
     background-color: #fec20b !important;
 }
 
-.bees:after
-{
-    border-color: #4b4b4b;
-}
-
+.bees:after,
 .item .date,
 .pricing_table_column:hover,
 .pricing_table_column.active_table_column,
@@ -457,7 +443,7 @@ body.wave-style hr,
 .tp-rightarrow.round,
 .site_top_panel form.search-form .search-field,
 .testimonial .author img {
-    border-color: #f15a29;
+    border-color: #fec20b;
 }
 
 .post_info a,
@@ -492,7 +478,7 @@ blockquote:after,
 .footer_container ul.product_list_widget li a,
 .footer_container ul.product_list_widget ins,
 .footer_container ul.product_list_widget span.amount {
-    color: #f15a29;
+    color: #fec20b;
 }
 
 
@@ -550,7 +536,7 @@ canvas.breadcrumbs {
 .woocommerce .media_part,
 ul.product_list_widget li a img,
 .price_slider_wrapper .price_slider {
-    border-color:  #f4a795;
+    border-color: #26b4d7;
 }
 
 .gridlist-toggle a:before,
@@ -560,12 +546,12 @@ div.woocommerce .cart_totals h2,
 .woocommerce .related.products h2,
 .cart_totals .amount,
 input[type=checkbox]:checked:before {
-    color:  #f4a795;
+    color: #26b4d7;
 }
 
 .cws-widget ul.product_list_widget>li>a,
 form.checkout h3 {
-    color:  #f4a795;
+    color: #26b4d7;
 }
 
 .button.add_to_cart_button,
@@ -578,7 +564,7 @@ ul.products li .media_part .rating_cont:before,
 ul.products li .media_part .rating_cont .button-shadow,
 .price_slider .ui-slider-range,
 .woocommerce-product-search:before {
-    background-color:  #f4a795;
+    background-color: #26b4d7;
 }
 
 .woocommerce ul.products h3,
@@ -1389,7 +1375,7 @@ ol li {
 }
 
 ul li:before {
-    content: "\2713 ";
+    content: "â€¢";
     padding-right: 0.35em;
 }
 
@@ -1783,7 +1769,7 @@ ROW BG VIDEO
 */
 
 .page_content {
-    padding-bottom: 50px !important;
+    padding-bottom: 178px !important;
     position: relative;
     z-index: 1;
 }
@@ -2239,7 +2225,7 @@ HEADER
 }
 
 .header_mask {
-    background-color:  #f4a795;
+    background-color: #26b4d7;
     position: absolute;
     top: 0;
     left: 0;
@@ -4298,6 +4284,8 @@ aside .pic .links_popup .link span {
 .gallery-icon,
 img.image-type {
     position: relative;
+    border-radius: 18px;
+    border-width: 9px;
     border-style: solid;
     padding: 2px;
     line-height: 0;
@@ -4543,10 +4531,6 @@ img.image-type.noborder {
     z-index: 1;
     margin-top: 10px;
     margin-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-    height: 375px;
-    justify-content: space-between;
 }
 
 .testimonial.style-2 {
@@ -4586,8 +4570,8 @@ img.image-type.noborder {
 }
 
 .testimonial .author figcaption {
-    font-size: 1em;
-    line-height: 1.3em;
+    font-size: 1.3043em;
+    line-height: 1em;
     text-align: center;
 }
 
@@ -4598,8 +4582,7 @@ img.image-type.noborder {
 .testimonial .quote {
     position: relative;
     z-index: 1;
-    font-size: 18px;
-    text-align: justify;
+    font-size: 20px;
 }
 
 .testimonial .quote>*:first-child {
@@ -4697,7 +4680,7 @@ img.image-type.noborder {
 }
 
 .bread-crumbs {
-    text-align: left;
+    text-align: right;
     font-size: 0.87em
 }
 
@@ -4949,7 +4932,7 @@ hr {
 
 body.wave-style hr {
     border: 0;
-    height: 1px;
+    height: 2px;
     border-radius: 6px;
 }
 
@@ -6357,7 +6340,7 @@ a:hover>.cws_fa_wrapper> .cws_fa:after {
     min-height: 40px;
     display: inline-block;
     font-size: 1.14em;
-    padding: 10px 25px;
+    padding: 0 15px;
     text-align: center;
     line-height: 40px;
     margin-right: 1px;
@@ -6923,7 +6906,7 @@ a:hover>.cws_fa_wrapper> .cws_fa:after {
     width: 22px;
     height: 5px;
     border-radius: 5px;
-    background-color: #4b4b4b;
+    background-color: #fec20b;
 }
 
 .cws_callout .callout_text {
@@ -6940,7 +6923,7 @@ a:hover>.cws_fa_wrapper> .cws_fa:after {
 .cws_callout .button_section>a {
     position: relative;
     font-size: 1.58em;
-    padding: 10px 30px;
+    padding: 10px 16px;
     line-height: 1;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
@@ -7128,7 +7111,7 @@ footer .cws_tweet .tweet_content {
 }
 
 .post_item .post_title {
-    font-size: 1.5em;
+    font-size: 1.0526em;
 }
 
 .post_item .post_date {
@@ -8335,7 +8318,6 @@ FOOTER
     position: relative;
     z-index: 1;
     color: rgba(255, 255, 255, 0.85);
-    background-color: #a3a3a3;
 }
 
 .page_footer .cws-widget ul:not(.tweet_list) li>a,
@@ -8636,7 +8618,6 @@ COPYRIGHTS AREA
     position: relative;
     z-index: 1;
     padding: 18px 0;
-    background-color: #4b4b4b;
 }
 
 .copyrights_area a:hover {
@@ -9679,7 +9660,7 @@ img.emoji {
 .widget.timetable_sidebar_box .box_header {
     margin-bottom: 0;
     font-family: 'Source Sans Pro', sans-serif !important;
-    color:  #f4a795!important;
+    color: #26b4d7!important;
 }
 
 .widget.timetable_sidebar_box .box_header:after {
@@ -9744,7 +9725,7 @@ img.emoji {
 
 table.tt_timetable thead th {
     color: #fff;
-    background-color:  #f4a795;
+    background-color: #26b4d7;
 }
 
 .tt_timetable .event {
@@ -9893,7 +9874,7 @@ table.tt_timetable thead th {
 
 .tt_event_hours li {
     border: 1px solid #d8d8d8;
-    border-left: 3px solid  #f4a795;
+    border-left: 3px solid #26b4d7;
     width: calc(50% - 15px);
     box-sizing: border-box;
 }
@@ -9922,7 +9903,7 @@ aside .tt_upcoming_events li .tt_upcoming_events_event_container {
     font-size: 19px;
     color: #9f9e9e;
     font-family: Dosis;
-    border-left: 3px solid  #f4a795;
+    border-left: 3px solid #26b4d7;
     height: auto;
     border-bottom: 1px solid #d8d8d8;
     border-right: 1px solid #d8d8d8;
@@ -9943,10 +9924,10 @@ aside .tt_upcoming_events li .tt_upcoming_events_event_container:hover .tt_event
 }
 
 .tt_upcoming_events li .tt_upcoming_events_event_container:hover {
-    background:  #f4a795;
-    border-top: 1px solid  #f4a795;
-    border-bottom: 1px solid  #f4a795;
-    border-right: 1px solid  #f4a795;
+    background: #26b4d7;
+    border-top: 1px solid #26b4d7;
+    border-bottom: 1px solid #26b4d7;
+    border-right: 1px solid #26b4d7;
 }
 
 .timetable_sidebar_box {
@@ -10039,11 +10020,11 @@ aside .tt_upcoming_events li .tt_upcoming_events_event_container:hover .tt_event
 .tp-caption.home-h1,
 .home-h1 {
     color: rgba(255, 255, 255, 1.00);
-    font-size: 120px;
+    font-size: 80px;
     line-height: 80px;
-    font-weight: 700;
+    font-weight: 400;
     font-style: normal;
-    font-family: 'Amatic SC', cursive;
+    font-family: Patrick Hand;
     padding: 0px 0px 0px 0px;
     text-decoration: none;
     background-color: transparent;
@@ -10057,10 +10038,10 @@ aside .tt_upcoming_events li .tt_upcoming_events_event_container:hover .tt_event
 
 .tp-caption.home-general-font,
 .home-general-font {
-    font-size: 40px;
+    font-size: 27px;
     line-height: 35px;
     font-weight: 400;
-    font-family: 'Amatic SC', cursive;
+    font-family: Rancho;
     color: rgb(255, 255, 255);
     text-decoration: none;
     background-color: transparent;
@@ -10211,34 +10192,4 @@ only screen and (min-device-pixel-ratio: 1.5) {
     line-height: 1;
     font-weight: 700;
 }
-.image-border {
 
-}
-.image-border img {
-    position: relative;
-    border-radius: 18px;
-    border-width: 9px;
-    border-style: solid;
-    border-color: #f15a29;
-    padding: 2px;
-}
-.ce iframe {
-    width: 100%;
-    min-height: 100%;
-    height: 500px;
-}
-.ce a {
-    font-weight: bold;
-    color: #ea502b;
-}
-table {
-    margin: auto;
-}
-table th span, table td span {
-    font-style: italic;
-    font-size: 16px;
-}
-.tab_items p span {
-    font-weight: bold;
-    color: #ea502b;
-}

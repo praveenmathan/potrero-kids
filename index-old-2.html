@@ -12,7 +12,7 @@
     <link rel='stylesheet' href='css/jquery.fancybox.css' type='text/css' media='all' />
     <link rel='stylesheet' href='css/select2.css' type='text/css' media='all' />
     <link rel='stylesheet' href='css/animate.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='css/main-3.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='css/main-2.css' type='text/css' media='all' />
     <link rel='stylesheet' href='css/shop.css' type='text/css' media='all' />
     <script type='text/javascript' src='js/jquery.js'></script>
     <script type='text/javascript' src='js/jquery-migrate.min.js'></script>
@@ -32,11 +32,17 @@
     <div class="page">
         <!-- top panel -->
         <div class='site_top_panel wave slider'>
+            <!-- canvas -->
+            <div class='top_half_sin_wrapper'>
+                <canvas class='top_half_sin' data-bg-color='#ffffff' data-line-color='#ffffff'></canvas>
+            </div>
+            <!-- / canvas -->
             <div class='container'>
                 <div class='row_text_search'>
-                    <div id='top_panel_text'><a href="tel:1-800-123-45678"><i class="fa fa-phone-square"></i>
-                            1-800-123-45678 </a>;
-                        <a href="mailto:mail@mail.com"> <i class="fa fa-envelope-o"></i>mail@mail.com</a>
+                    <div id='top_panel_text'><a href="tel:415.550.3300"><i class="fa fa-phone-square"></i>
+                            415.550.3300 </a>;
+                        <a href="mailto:frontdesk@potrerokids.org"> <i
+                                class="fa fa-envelope-o"></i>frontdesk@potrerokids.org</a>
                     </div>
                 </div>
                 <div id='top_panel_links'>
@@ -90,8 +96,8 @@
                                         </li>
                                         <!-- / menu item -->
                                         <!-- menu item -->
-                                        <li class="menu-item menu-item-has-children"><a href="about-us.html">About us
-                                                <div class="canvas_wrapper">
+                                        <li class="menu-item menu-item-has-children"><a href="#">About us<div
+                                                    class="canvas_wrapper">
                                                     <canvas class="menu_dashed"></canvas></div></a>
                                         </li>
                                         <!-- / menu item -->
@@ -102,20 +108,20 @@
                                         </li>
                                         <!-- / menu item -->
                                         <!-- menu item -->
-                                        <li class="menu-item menu-item-has-children right"><a
-                                                href="program.html">Program<div class="canvas_wrapper">
+                                        <li class="menu-item menu-item-has-children right"><a href="#">Program<div
+                                                    class="canvas_wrapper">
                                                     <canvas class="menu_dashed"></canvas></div></a>
                                         </li>
                                         <!-- / menu item -->
                                         <!-- menu item -->
-                                        <li class="menu-item menu-item-has-children right"><a href="giving.html">Giving
-                                                <div class="canvas_wrapper"><canvas class="menu_dashed"></canvas></div>
+                                        <li class="menu-item menu-item-has-children right"><a href="#">Giving<div
+                                                    class="canvas_wrapper"><canvas class="menu_dashed"></canvas></div>
                                             </a>
                                         </li>
                                         <!-- / menu item -->
                                         <!-- menu item -->
                                         <li class="menu-item right bees-end">
-                                            <a href="contact-us.html">
+                                            <a href="#">
                                                 <div class="bees bees-end"><span></span>
                                                     <div class="line-one"></div>
                                                     <div class="line-two"></div>
@@ -150,26 +156,26 @@
                                 data-bgparallax="1" class="rev-slidebg" data-no-retina>
                             <!-- LAYERS -->
                             <!-- LAYER NR. 1 -->
-                            <!-- <div class="tp-caption   tp-resizeme rs-parallaxlevel-0" id="slide-1-layer-23"
+                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-0" id="slide-1-layer-23"
                                 data-x="center" data-hoffset="" data-y="center" data-voffset=""
                                 data-width="['none','none','none','none']" data-height="['none','none','none','none']"
                                 data-transform_idle="o:1;" data-transform_in="opacity:0;s:300;e:Power2.easeInOut;"
                                 data-transform_out="opacity:0;s:300;s:300;" data-start="990" data-responsive_offset="on"
                                 style="z-index: 5;"><img src="pic/revslider/general/sunshine_home1.png" alt=""
                                     width="1920" height="650" data-ww="1920px" data-hh="650px" data-no-retina>
-                            </div> -->
+                            </div>
                             <!-- LAYER NR. 2 -->
-                            <!-- <div class="tp-caption home-h2   tp-resizeme rs-parallaxlevel-9" id="slide-1-layer-1"
+                            <div class="tp-caption home-h2   tp-resizeme rs-parallaxlevel-9" id="slide-1-layer-1"
                                 data-x="30" data-y="213" data-width="['auto']" data-height="['auto']"
                                 data-transform_idle="o:1;"
                                 data-transform_in="y:50px;z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
                                 data-transform_out="auto:auto;s:300;" data-start="500" data-splitin="none"
                                 data-splitout="none" data-responsive_offset="on"
                                 style="z-index: 6; white-space: nowrap;">Welcome to
-                            </div> -->
+                            </div>
                             <!-- LAYER NR. 3 -->
                             <div class="tp-caption home-h1   tp-resizeme rs-parallaxlevel-9" id="slide-1-layer-2"
-                                data-x="370" data-y="275" data-width="['auto']" data-height="['auto']"
+                                data-x="30" data-y="275" data-width="['auto']" data-height="['auto']"
                                 data-transform_idle="o:1;"
                                 data-transform_in="y:50px;z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
                                 data-transform_out="auto:auto;s:300;" data-start="500" data-splitin="none"
@@ -177,7 +183,7 @@
                                 style="z-index: 7; white-space: nowrap;">Potrero Kids !
                             </div>
                             <!-- LAYER NR. 4 -->
-                            <!-- <div class="tp-caption home-general-font   tp-resizeme rs-parallaxlevel-9 none-visible-mobile"
+                            <div class="tp-caption home-general-font   tp-resizeme rs-parallaxlevel-9 none-visible-mobile"
                                 id="slide-1-layer-22" data-x="30" data-y="345"
                                 data-width="['none','none','none','none']" data-height="['none','none','none','none']"
                                 data-transform_idle="o:1;"
@@ -186,19 +192,19 @@
                                 style="z-index: 8;border-color:rgba(0, 0, 0, 1.00);"><img
                                     src="pic/revslider/general/slider_devider.png" alt="" width="300" height="8"
                                     data-ww="300px" data-hh="8px" data-no-retina>
-                            </div> -->
+                            </div>
                             <!-- LAYER NR. 5 -->
                             <div class="tp-caption home-general-font   tp-resizeme rs-parallaxlevel-9 none-visible-mobile"
-                                id="slide-1-layer-3" data-x="60" data-y="400" data-width="['auto']"
+                                id="slide-1-layer-3" data-x="30" data-y="385" data-width="['auto']"
                                 data-height="['auto']" data-transform_idle="o:1;"
                                 data-transform_in="y:50px;z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
                                 data-transform_out="auto:auto;s:300;" data-start="500" data-splitin="none"
                                 data-splitout="none" data-responsive_offset="on"
-                                style="z-index: 9; white-space: nowrap; color: rgba(255, 255, 255, 1.00);font-family: 'Amatic SC', cursive;border-color:rgba(0, 0, 0, 1.00);">
-                                Bringing spanish language, engaging learning, & loving care to San Francisco families
+                                style="z-index: 9; white-space: nowrap; color: rgba(255, 255, 255, 1.00);font-family:Patrick Hand;border-color:rgba(0, 0, 0, 1.00);">
+                                Bringing spanish language, engaging learning, and
                             </div>
                             <!-- LAYER NR. 6 -->
-                            <!-- <div class="tp-caption home-general-font   tp-resizeme rs-parallaxlevel-9 none-visible-mobile"
+                            <div class="tp-caption home-general-font   tp-resizeme rs-parallaxlevel-9 none-visible-mobile"
                                 id="slide-1-layer-4" data-x="29" data-y="413" data-width="['auto']"
                                 data-height="['auto']" data-transform_idle="o:1;"
                                 data-transform_in="y:50px;z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
@@ -206,16 +212,16 @@
                                 data-splitout="none" data-responsive_offset="on"
                                 style="z-index: 10; white-space: nowrap; color: rgba(255, 255, 255, 1.00);font-family:Patrick Hand;border-color:rgba(0, 0, 0, 1.00);">
                                 loving care to San Francisco families
-                            </div> -->
+                            </div>
                             <!-- LAYER NR. 7 -->
-                            <!-- <div class="tp-caption   tp-resizeme rs-parallaxlevel-10" id="slide-1-layer-5" data-x="-36"
+                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-10" id="slide-1-layer-5" data-x="-36"
                                 data-y="589" data-width="['none','none','none','none']"
                                 data-height="['none','none','none','none']" data-transform_idle="o:1;"
                                 data-transform_in="opacity:0;s:290;e:Power2.easeInOut;"
                                 data-transform_out="opacity:0;s:300;s:300;" data-start="500" data-responsive_offset="on"
                                 style="z-index: 11;"><img src="pic/revslider/general/grass.png" alt="" width="1469"
                                     height="162" data-ww="1484px" data-hh="130px" data-no-retina>
-                            </div> -->
+                            </div>
                             <!-- LAYER NR. 8 -->
                             <!-- <div class="tp-caption   tp-resizeme rs-parallaxlevel-8" id="slide-1-layer-7" data-x="761"
                                 data-y="186" data-width="['none','none','none','none']"
@@ -226,16 +232,16 @@
                                     height="424" data-ww="398px" data-hh="424px" data-no-retina>
                             </div> -->
                             <!-- LAYER NR. 9 -->
-                            <!-- <div class="tp-caption   tp-resizeme rs-parallaxlevel-9" id="slide-1-layer-6" data-x="362"
+                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-9" id="slide-1-layer-6" data-x="362"
                                 data-y="181" data-width="['none','none','none','none']"
                                 data-height="['none','none','none','none']" data-transform_idle="o:1;"
                                 data-transform_in="opacity:0;s:300;e:Power2.easeInOut;"
                                 data-transform_out="opacity:0;s:300;s:300;" data-start="570" data-responsive_offset="on"
                                 style="z-index: 13;"><img src="pic/revslider/general/children.png" alt="" width="662"
                                     height="484" data-ww="662px" data-hh="484px" data-no-retina>
-                            </div> -->
+                            </div>
                             <!-- LAYER NR. 10 -->
-                            <!-- <div class="tp-caption   tp-resizeme rs-parallaxlevel-8" id="slide-1-layer-9" data-x="325"
+                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-8" id="slide-1-layer-9" data-x="325"
                                 data-y="132" data-width="['none','none','none','none']"
                                 data-height="['none','none','none','none']" data-transform_idle="o:1;"
                                 data-transform_in="x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0;sY:0;skX:0;skY:0;opacity:0;s:300;e:Power2.easeInOut;"
@@ -245,9 +251,9 @@
                                     data-origin="50% 50%"><img src="pic/revslider/general/cloud-1.png" alt="" width="91"
                                         height="37" data-ww="91px" data-hh="37px" data-no-retina>
                                 </div>
-                            </div> -->
+                            </div>
                             <!-- LAYER NR. 11 -->
-                            <!-- <div class="tp-caption   tp-resizeme rs-parallaxlevel-7" id="slide-1-layer-10" data-x="-117"
+                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-7" id="slide-1-layer-10" data-x="-117"
                                 data-y="311" data-width="['none','none','none','none']"
                                 data-height="['none','none','none','none']" data-transform_idle="o:1;"
                                 data-transform_in="x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0;sY:0;skX:0;skY:0;opacity:0;s:300;e:Power2.easeInOut;"
@@ -257,9 +263,9 @@
                                     data-origin="50% 10%"><img src="pic/revslider/general/cloud-2.png" alt="" width="90"
                                         height="40" data-ww="90px" data-hh="40px" data-no-retina>
                                 </div>
-                            </div> -->
+                            </div>
                             <!-- LAYER NR. 12 -->
-                            <!-- <div class="tp-caption   tp-resizeme rs-parallaxlevel-8" id="slide-1-layer-13" data-x="1122"
+                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-8" id="slide-1-layer-13" data-x="1122"
                                 data-y="69" data-width="['none','none','none','none']"
                                 data-height="['none','none','none','none']" data-transform_idle="o:1;"
                                 data-transform_in="x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0;sY:0;skX:0;skY:0;opacity:0;s:300;e:Power2.easeInOut;"
@@ -269,9 +275,9 @@
                                     data-origin="50% 50%"><img src="pic/revslider/general/cloud-5.png" alt=""
                                         width="180" height="72" data-ww="180px" data-hh="72px" data-no-retina>
                                 </div>
-                            </div> -->
+                            </div>
                             <!-- LAYER NR. 13 -->
-                            <!-- <div class="tp-caption   tp-resizeme rs-parallaxlevel-8" id="slide-1-layer-14" data-x="-127"
+                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-8" id="slide-1-layer-14" data-x="-127"
                                 data-y="70" data-width="['none','none','none','none']"
                                 data-height="['none','none','none','none']" data-transform_idle="o:1;"
                                 data-transform_in="x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0;sY:0;skX:0;skY:0;opacity:0;s:300;e:Power2.easeInOut;"
@@ -281,9 +287,9 @@
                                     data-origin="50% 10%"><img src="pic/revslider/general/cloud-6.png" alt=""
                                         width="180" height="72" data-ww="180px" data-hh="72px" data-no-retina>
                                 </div>
-                            </div> -->
+                            </div>
                             <!-- LAYER NR. 14 -->
-                            <!-- <div class="tp-caption   tp-resizeme rs-parallaxlevel-6" id="slide-1-layer-18" data-x="898"
+                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-6" id="slide-1-layer-18" data-x="898"
                                 data-y="50" data-width="['none','none','none','none']"
                                 data-height="['none','none','none','none']" data-transform_idle="o:1;"
                                 data-transform_in="x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0;sY:0;skX:0;skY:0;opacity:0;s:300;e:Power2.easeInOut;"
@@ -293,9 +299,9 @@
                                     data-origin="50% 50%"><img src="pic/revslider/general/cloud-2.png" alt="" width="90"
                                         height="40" data-ww="90px" data-hh="40px" data-no-retina>
                                 </div>
-                            </div> -->
+                            </div>
                             <!-- LAYER NR. 15 -->
-                            <!-- <div class="tp-caption   tp-resizeme rs-parallaxlevel-8" id="slide-1-layer-19" data-x="1259"
+                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-8" id="slide-1-layer-19" data-x="1259"
                                 data-y="528" data-width="['none','none','none','none']"
                                 data-height="['none','none','none','none']" data-transform_idle="o:1;"
                                 data-transform_in="x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0;sY:0;skX:0;skY:0;opacity:0;s:300;e:Power2.easeInOut;"
@@ -305,9 +311,9 @@
                                     data-origin="50% 50%"><img src="pic/revslider/general/cloud-1.png" alt="" width="91"
                                         height="37" data-ww="91px" data-hh="37px" data-no-retina>
                                 </div>
-                            </div> -->
+                            </div>
                             <!-- LAYER NR. 16 -->
-                            <!-- <div class="tp-caption   tp-resizeme rs-parallaxlevel-9" id="slide-1-layer-20" data-x="-243"
+                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-9" id="slide-1-layer-20" data-x="-243"
                                 data-y="478" data-width="['none','none','none','none']"
                                 data-height="['none','none','none','none']" data-transform_idle="o:1;"
                                 data-transform_in="x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0;sY:0;skX:0;skY:0;opacity:0;s:300;e:Power2.easeInOut;"
@@ -317,9 +323,9 @@
                                     data-origin="50% 1%"><img src="pic/revslider/general/cloud-3.png" alt="" width="271"
                                         height="108" data-ww="271px" data-hh="108px" data-no-retina>
                                 </div>
-                            </div> -->
+                            </div>
                             <!-- LAYER NR. 17 -->
-                            <!-- <div class="tp-caption   tp-resizeme rs-parallaxlevel-8" id="slide-1-layer-21" data-x="1150"
+                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-8" id="slide-1-layer-21" data-x="1150"
                                 data-y="328" data-width="['none','none','none','none']"
                                 data-height="['none','none','none','none']" data-transform_idle="o:1;"
                                 data-transform_in="x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0;sY:0;skX:0;skY:0;opacity:0;s:300;e:Power2.easeInOut;"
@@ -329,6 +335,179 @@
                                     data-origin="50% 50%"><img src="pic/revslider/general/cloud-4.png" alt=""
                                         width="271" height="108" data-ww="271px" data-hh="108px" data-no-retina>
                                 </div>
+                            </div>
+                        </li>
+                        <!-- SLIDE  -->
+                        <li data-index="rs-2" data-transition="random,fade" data-slotamount="7,7"
+                            data-easein="default,default" data-easeout="default,default" data-masterspeed="300,500"
+                            data-thumb="pic/2015/09/dots-pattern-100x50.png" data-rotate="0,0"
+                            data-saveperformance="off" data-title="Slide" data-description="">
+                            <!-- MAIN IMAGE -->
+                            <img src="img/dots-pattern.png" alt="" width="43" height="24"
+                                data-bgposition="center center" data-bgfit="normal" data-bgrepeat="repeat"
+                                data-bgparallax="1" class="rev-slidebg" data-no-retina>
+                            <!-- LAYERS -->
+                            <!-- LAYER NR. 1 -->
+                            <!-- <div class="tp-caption   tp-resizeme rs-parallaxlevel-0" id="slide-2-layer-24"
+                                data-x="center" data-hoffset="" data-y="center" data-voffset=""
+                                data-width="['none','none','none','none']" data-height="['none','none','none','none']"
+                                data-transform_idle="o:1;" data-transform_in="opacity:0;s:300;e:Power2.easeInOut;"
+                                data-transform_out="opacity:0;s:300;s:300;" data-start="570" data-responsive_offset="on"
+                                style="z-index: 5;"><img src="pic/revslider/general/sunshine_home1.png" alt=""
+                                    width="1920" height="650" data-ww="1920px" data-hh="650px" data-no-retina>
+                            </div> -->
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-10" id="slide-2-layer-23"
+                                data-x="center" data-hoffset="" data-y="bottom" data-voffset="10"
+                                data-width="['none','none','none','none']" data-height="['none','none','none','none']"
+                                data-transform_idle="o:1;" data-transform_in="opacity:0;s:300;e:Power2.easeInOut;"
+                                data-transform_out="opacity:0;s:300;s:300;" data-start="570" data-responsive_offset="on"
+                                style="z-index: 6;"><img src="pic/revslider/general/objects1.png" alt="" width="1892"
+                                    height="474" data-ww="1892px" data-hh="474px" data-no-retina>
+                            </div>
+                            <!-- LAYER NR. 3 -->
+                            <div class="tp-caption home-h1   tp-resizeme rs-parallaxlevel-9" id="slide-2-layer-1"
+                                data-x="270" data-y="230" data-width="['auto']" data-height="['auto']"
+                                data-transform_idle="o:1;"
+                                data-transform_in="y:50px;z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+                                data-transform_out="auto:auto;s:300;" data-start="500" data-splitin="none"
+                                data-splitout="none" data-responsive_offset="on"
+                                style="z-index: 7; white-space: nowrap;">Our goal is to Provide
+                            </div>
+                            <!-- LAYER NR. 4 -->
+                            <!-- <div class="tp-caption home-h1   tp-resizeme rs-parallaxlevel-9" id="slide-2-layer-2"
+                                data-x="450" data-y="260" data-width="['auto']" data-height="['auto']"
+                                data-transform_idle="o:1;"
+                                data-transform_in="y:50px;z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+                                data-transform_out="auto:auto;s:300;" data-start="500" data-splitin="none"
+                                data-splitout="none" data-responsive_offset="on"
+                                style="z-index: 8; white-space: nowrap;">to Provide
+                            </div> -->
+                            <!-- LAYER NR. 5 -->
+                            <div class="tp-caption home-general-font   tp-resizeme rs-parallaxlevel-9 none-visible-mobile"
+                                id="slide-2-layer-22" data-x="270" data-y="320"
+                                data-width="['none','none','none','none']" data-height="['none','none','none','none']"
+                                data-transform_idle="o:1;"
+                                data-transform_in="y:50px;opacity:0;s:1500;e:Power3.easeInOut;"
+                                data-transform_out="auto:auto;s:300;" data-start="500" data-responsive_offset="on"
+                                style="z-index: 9;border-color:rgba(0, 0, 0, 1.00);"><img
+                                    src="pic/revslider/general/slider_devider.png" alt="" width="600" height="8"
+                                    data-ww="600px" data-hh="8px" data-no-retina>
+                            </div>
+                            <!-- LAYER NR. 6 -->
+                            <div class="tp-caption home-general-font   tp-resizeme rs-parallaxlevel-9 none-visible-mobile"
+                                id="slide-2-layer-4" data-x="270" data-y="360" data-width="['800']"
+                                data-height="['106']" data-transform_idle="o:1;"
+                                data-transform_in="y:50px;z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+                                data-transform_out="auto:auto;s:300;" data-start="500" data-splitin="none"
+                                data-splitout="none" data-responsive_offset="on"
+                                style="z-index: 10; min-width: 338px; max-width: 338px; max-width: 106px; max-width: 106px; white-space: normal; color: rgba(255, 255, 255, 1.00);font-family:Patrick Hand;border-color:rgba(0, 0, 0, 1.00);">
+                                a complete nurturing environment for the growth and development of the whole child
+                            </div>
+                            <!-- LAYER NR. 7 -->
+                            <!-- <div class="tp-caption   tp-resizeme rs-parallaxlevel-8" id="slide-2-layer-7" data-x="right"
+                                data-hoffset="10" data-y="bottom" data-voffset="-56"
+                                data-width="['none','none','none','none']" data-height="['none','none','none','none']"
+                                data-transform_idle="o:1;" data-transform_in="opacity:0;s:300;e:Power2.easeInOut;"
+                                data-transform_out="opacity:0;s:300;s:300;" data-start="500" data-responsive_offset="on"
+                                style="z-index: 11;"><img src="pic/revslider/general/kid-right.png" alt="" width="384"
+                                    height="538" data-ww="384px" data-hh="538px" data-no-retina>
+                            </div> -->
+                            <!-- LAYER NR. 8 -->
+                            <!-- <div class="tp-caption   tp-resizeme rs-parallaxlevel-9" id="slide-2-layer-6" data-x="10"
+                                data-y="181" data-width="['none','none','none','none']"
+                                data-height="['none','none','none','none']" data-transform_idle="o:1;"
+                                data-transform_in="opacity:0;s:300;e:Power2.easeInOut;"
+                                data-transform_out="opacity:0;s:300;s:300;" data-start="500" data-responsive_offset="on"
+                                style="z-index: 12;"><img src="pic/revslider/general/kid-left.png" alt="" width="459"
+                                    height="501" data-ww="459px" data-hh="501px" data-no-retina>
+                            </div> -->
+                        </li>
+                        <!-- SLIDE  -->
+                        <li data-index="rs-3" data-transition="random,fade" data-slotamount="7,7"
+                            data-easein="default,default" data-easeout="default,default" data-masterspeed="300,500"
+                            data-thumb="pic/2015/09/dots-pattern-100x50.png" data-rotate="0,0"
+                            data-saveperformance="off" data-title="Slide" data-description="">
+                            <!-- MAIN IMAGE -->
+                            <img src="img/dots-pattern.png" alt="" width="43" height="24"
+                                data-bgposition="center center" data-bgfit="normal" data-bgrepeat="repeat"
+                                data-bgparallax="1" class="rev-slidebg" data-no-retina>
+                            <!-- LAYERS -->
+                            <!-- LAYER NR. 1 -->
+                            <!-- <div class="tp-caption   tp-resizeme rs-parallaxlevel-0" id="slide-3-layer-24"
+                                data-x="center" data-hoffset="-237" data-y="center" data-voffset=""
+                                data-width="['none','none','none','none']" data-height="['none','none','none','none']"
+                                data-transform_idle="o:1;" data-transform_in="opacity:0;s:300;e:Power2.easeInOut;"
+                                data-transform_out="opacity:0;s:300;s:300;" data-start="570" data-responsive_offset="on"
+                                style="z-index: 5;"><img src="pic/revslider/general/sunshine_home1.png" alt=""
+                                    width="1920" height="650" data-ww="1920px" data-hh="650px" data-no-retina>
+                            </div> -->
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption   tp-resizeme rs-parallaxlevel-10" id="slide-3-layer-23"
+                                data-x="center" data-hoffset="" data-y="bottom" data-voffset="10"
+                                data-width="['none','none','none','none']" data-height="['none','none','none','none']"
+                                data-transform_idle="o:1;" data-transform_in="opacity:0;s:300;e:Power2.easeInOut;"
+                                data-transform_out="opacity:0;s:300;s:300;" data-start="570" data-responsive_offset="on"
+                                style="z-index: 6;"><img src="pic/revslider/general/objects.png" alt="" width="1859"
+                                    height="491" data-ww="1859px" data-hh="491px" data-no-retina>
+                            </div>
+                            <!-- LAYER NR. 3 -->
+                            <div class="tp-caption home-h2   tp-resizeme rs-parallaxlevel-9" id="slide-3-layer-1"
+                                data-x="350" data-y="213" data-width="['auto']" data-height="['auto']"
+                                data-transform_idle="o:1;"
+                                data-transform_in="y:50px;z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+                                data-transform_out="auto:auto;s:300;" data-start="500" data-splitin="none"
+                                data-splitout="none" data-responsive_offset="on"
+                                style="z-index: 7; white-space: nowrap;">
+                            </div>
+                            <!-- LAYER NR. 4 -->
+                            <div class="tp-caption home-h1   tp-resizeme rs-parallaxlevel-9" id="slide-3-layer-2"
+                                data-x="350" data-y="240" data-width="['auto']" data-height="['auto']"
+                                data-transform_idle="o:1;"
+                                data-transform_in="y:50px;z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+                                data-transform_out="auto:auto;s:300;" data-start="500" data-splitin="none"
+                                data-splitout="none" data-responsive_offset="on"
+                                style="z-index: 8; white-space: nowrap;">Learning Is Fun
+                            </div>
+                            <!-- LAYER NR. 5 -->
+                            <div class="tp-caption home-general-font   tp-resizeme rs-parallaxlevel-9 none-visible-mobile"
+                                id="slide-3-layer-22" data-x="350" data-y="320"
+                                data-width="['none','none','none','none']" data-height="['none','none','none','none']"
+                                data-transform_idle="o:1;"
+                                data-transform_in="y:50px;opacity:0;s:1500;e:Power3.easeInOut;"
+                                data-transform_out="auto:auto;s:300;" data-start="500" data-responsive_offset="on"
+                                style="z-index: 9;border-color:rgba(0, 0, 0, 1.00);"><img
+                                    src="pic/revslider/general/slider_devider.png" alt="" width="500" height="8"
+                                    data-ww="500px" data-hh="8px" data-no-retina>
+                            </div>
+                            <!-- LAYER NR. 6 -->
+                            <div class="tp-caption home-general-font   tp-resizeme rs-parallaxlevel-9 none-visible-mobile"
+                                id="slide-3-layer-3" data-x="350" data-y="365" data-width="['572']"
+                                data-height="['144']" data-transform_idle="o:1;"
+                                data-transform_in="y:50px;z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+                                data-transform_out="auto:auto;s:300;" data-start="500" data-splitin="none"
+                                data-splitout="none" data-responsive_offset="on"
+                                style="z-index: 10; min-width: 372px; max-width: 372px; max-width: 144px; max-width: 144px; white-space: normal; color: rgba(255, 255, 255, 1.00);font-family:Patrick Hand;border-color:rgba(0, 0, 0, 1.00);">
+                                Through play, children learn about themselves, their environment, people and the world
+                                around them
+                            </div>
+                            <!-- LAYER NR. 7 -->
+                            <!-- <div class="tp-caption   tp-resizeme rs-parallaxlevel-8" id="slide-3-layer-7" data-x=""
+                                data-y="184" data-width="['none','none','none','none']"
+                                data-height="['none','none','none','none']" data-transform_idle="o:1;"
+                                data-transform_in="opacity:0;s:300;e:Power2.easeInOut;"
+                                data-transform_out="opacity:0;s:300;s:300;" data-start="500" data-responsive_offset="on"
+                                style="z-index: 11;"><img src="pic/revslider/general/blackboard.png" alt="" width="670"
+                                    height="393" data-ww="670px" data-hh="393px" data-no-retina>
+                            </div> -->
+                            <!-- LAYER NR. 8 -->
+                            <!-- <div class="tp-caption   tp-resizeme rs-parallaxlevel-9" id="slide-3-layer-6" data-x="10"
+                                data-y="181" data-width="['none','none','none','none']"
+                                data-height="['none','none','none','none']" data-transform_idle="o:1;"
+                                data-transform_in="opacity:0;s:300;e:Power2.easeInOut;"
+                                data-transform_out="opacity:0;s:300;s:300;" data-start="500" data-responsive_offset="on"
+                                style="z-index: 12;"><img src="pic/revslider/general/girl.png" alt="" width="356"
+                                    height="552" data-ww="356px" data-hh="552px" data-no-retina>
                             </div> -->
                         </li>
                     </ul>
@@ -341,9 +520,16 @@
         </div>
         <!-- / slider and menu container -->
 
+        <!-- canvas -->
+        <div class="cloud_wrapper">
+            <canvas class="white_cloud"></canvas>
+        </div>
+        <!-- / canvas -->
         <!-- main container -->
         <div id="main" class="site-main">
             <div class="page_content">
+                <!-- pattern conatainer / -->
+                <div class='left-pattern pattern pattern-5'></div>
                 <main>
                     <!-- section -->
                     <div class='grid_row clearfix' style='padding-top: 30px;'>
@@ -368,8 +554,8 @@
                         </div>
                         <div class='grid_col grid_col_4'>
                             <div class='ce clearfix'>
-                                <div><img class="noborder alignnone image-type size-full" src="img/shapes-1.png"
-                                        alt="kid_playing" width="385" height="373" />
+                                <div><img class="noborder alignnone image-type size-full"
+                                        src="pic/2015/04/kid_playing.jpg" alt="kid_playing" width="385" height="373" />
                                 </div>
                             </div>
                         </div>
@@ -393,23 +579,16 @@
                                                 <!-- testimonial item -->
                                                 <li>
                                                     <div class="testimonial clearfix">
-                                                        <div class='quote'>Being Spanish-first was a huge plus for us,
-                                                            giving our daughter an experience that would be hard to find
-                                                            elsewhere and one that we know will be rewarding and fun.
-                                                            That they had structure, within reason, but also a freedom
-                                                            for the kids natural playfulness to be expressed sold us
-                                                            immediately. When Covid struck, PK went to extreme lengths
-                                                            to keep in touch with parents, and offer not only their
-                                                            guidance but their reasoning for the decisions made. In
-                                                            uncertain times, this was truly appreciated and openness
-                                                            like that is rare today. I literally cannot speak highly
-                                                            enough of pk, the teachers, staff, board of parents and the
-                                                            volunteers who make this place so special for the kids. Next
-                                                            up will be #2 in a few years time!"</div>
+                                                        <div class='quote'>Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                                            et dolore magna aliqua.</div>
                                                         <figure class='author'>
                                                             <div class='dott'><span>.</span><span>.</span><span>.</span>
-                                                            </div>
-                                                            <figcaption>Gerry</figcaption>
+                                                            </div><img
+                                                                src='pic/bfi_thumb/64x64-16148467-304vr7mbviwufsmtnwrbpm.jpg'
+                                                                data-at2x='pic/bfi_thumb/64x64-16148467-304vr7mbviwufsmtnwrbpm@2x.jpg'
+                                                                alt />
+                                                            <figcaption>Alice Doe</figcaption>
                                                         </figure>
                                                     </div>
                                                 </li>
@@ -417,37 +596,52 @@
                                                 <!-- testimonial item -->
                                                 <li>
                                                     <div class="testimonial clearfix">
-                                                        <div class='quote'>Our son was so proud recently when he learned
-                                                            how to write his name, he tells us that his friend Alexandra
-                                                            loves the color "morado" and each day at pickup when he runs
-                                                            to give us a hug and show the art he made, he is so
-                                                            energized. I know that with both parents working full time
-                                                            at home and managing the school-from-home for our older
-                                                            child, there is no way we could offer him anything like his
-                                                            experience at Potrero Kids. It has been a lifesaver.
+                                                        <div class='quote'>Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                                            et dolore magna aliqua.
                                                         </div>
                                                         <figure class='author'>
                                                             <div class='dott'><span>.</span><span>.</span><span>.</span>
-                                                            </div>
-                                                            <figcaption>Amy</figcaption>
+                                                            </div><img
+                                                                src='pic/bfi_thumb/64x64-our_team_2-304vqoe94rd18dffqdh05m.jpg'
+                                                                data-at2x='pic/bfi_thumb/64x64-our_team_2-304vqoe94rd18dffqdh05m@2x.jpg'
+                                                                alt />
+                                                            <figcaption>Jane Doe</figcaption>
                                                         </figure>
                                                     </div>
                                                 </li>
                                                 <!-- / testimonial item -->
                                                 <!-- testimonial item -->
+                                                <li>
+                                                    <div class="testimonial clearfix">
+                                                        <div class='quote'>Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                                            et dolore magna aliqua.</div>
+                                                        <figure class='author'>
+                                                            <div class='dott'><span>.</span><span>.</span><span>.</span>
+                                                            </div><img
+                                                                src='pic/bfi_thumb/64x64-16148467-304vr7mbviwufsmtnwrbpm.jpg'
+                                                                data-at2x='pic/bfi_thumb/64x64-16148467-304vr7mbviwufsmtnwrbpm@2x.jpg'
+                                                                alt />
+                                                            <figcaption>Alice Doe</figcaption>
+                                                        </figure>
+                                                    </div>
+                                                </li>
+                                                <!-- / testimonial item -->
                                                 <!-- testimonial item -->
                                                 <li>
                                                     <div class="testimonial clearfix">
-                                                        <div class='quote'>All of the teachers and staff are amazing
-                                                            people you want to spend time with, yourself, and we love
-                                                            that it feels like a big extended family. It is a very
-                                                            special place that I know we will continue to visit after
-                                                            our two kids have graduated from the program.
+                                                        <div class='quote'>Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                                            et dolore magna aliqua.
                                                         </div>
                                                         <figure class='author'>
                                                             <div class='dott'><span>.</span><span>.</span><span>.</span>
-                                                            </div>
-                                                            <figcaption>Megumi</figcaption>
+                                                            </div><img
+                                                                src='pic/bfi_thumb/64x64-our_team_2-304vqoe94rd18dffqdh05m.jpg'
+                                                                data-at2x='pic/bfi_thumb/64x64-our_team_2-304vqoe94rd18dffqdh05m@2x.jpg'
+                                                                alt />
+                                                            <figcaption>Jane Doe</figcaption>
                                                         </figure>
                                                     </div>
                                                 </li>
@@ -488,7 +682,10 @@
                                                 <div class="cws-widget">
                                                     <div class="widget-title">
                                                         <div class='widget_title_box'>
-                                                            <div class='widget_title_icon_section'></div>
+                                                            <div class='widget_title_icon_section'><img
+                                                                    src='img/games-304vqrsdsyjt42zxc5ydxm.png'
+                                                                    data-at2x='img/games-304vqrsdsyjt42zxc5ydxm@2x.png'
+                                                                    alt /></div>
                                                             <div class='widget_title_text_section'>Vision</div>
                                                         </div>
                                                     </div>
@@ -504,7 +701,10 @@
                                                 <div class="cws-widget">
                                                     <div class="widget-title">
                                                         <div class='widget_title_box'>
-                                                            <div class='widget_title_icon_section'></div>
+                                                            <div class='widget_title_icon_section'><img
+                                                                    src='img/activities-304vqs1fhfe8b8ybbneakq.png'
+                                                                    data-at2x='img/activities-304vqs1fhfe8b8ybbneakq@2x.png'
+                                                                    alt /></div>
                                                             <div class='widget_title_text_section'>Goals</div>
                                                         </div>
                                                     </div>
@@ -521,7 +721,10 @@
                                                 <div class="cws-widget">
                                                     <div class="widget-title">
                                                         <div class='widget_title_box'>
-                                                            <div class='widget_title_icon_section'></div>
+                                                            <div class='widget_title_icon_section'><img
+                                                                    src='img/education-304vqs5ybpxf691gt0t7nu.png'
+                                                                    data-at2x='img/education-304vqs5ybpxf691gt0t7nu@2x.png'
+                                                                    alt /></div>
                                                             <div class='widget_title_text_section'>Activities</div>
                                                         </div>
                                                     </div>
@@ -583,27 +786,24 @@
                         </div>
                     </div>
                     <!-- / section -->
-                    <!-- divider -->
-                    <div class='grid_row clearfix' style='padding-bottom: 50px;'>
-                        <div class='grid_col grid_col_6'>
-                            <div class='ce clearfix'>
-                                <div class="image-border">
-                                    <img src="img/home-page-1.jpg" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class='grid_col grid_col_6'>
-                            <div class='ce clearfix'>
-                                <div class="image-border">
-                                    <img src="img/home-page-2.jpg" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- / divider -->
                 </main>
+                <!-- pettaren container / -->
+                <div class='right-pattern pattern pattern-8'></div>
+                <!-- footer image container / -->
+                <div class="footer_image"></div>
             </div>
-
+            <!-- svg filter -->
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="0" style='display:none;'>
+                <defs>
+                    <filter id="goo">
+                        <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur" />
+                        <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+                            result="goo" />
+                        <feComposite in="SourceGraphic" in2="goo" operator="atop" />
+                    </filter>
+                </defs>
+            </svg>
+            <!-- / svg filter -->
         </div>
         <!-- #main -->
         <!-- footer -->
@@ -618,90 +818,167 @@
                             <div class="widget-title">About Us</div>
                             <div class='cws_textwidget_content'>
                                 <div class='text'>
-                                    <img src="img/pk-logo-large.png" width="150" />
+                                    <p>Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                        et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                        et dolore magna aliqua.</p>
                                     <p>
-                                        Potrero Kids is a year round, Spanish-focused, dual-campus preschool in Potrero
-                                        Hill and the Dogpatch. We promote a strong sense of community through field
-                                        trips, spirit days, and more, coupled with a highly engaged parent community
-                                        that organizes special events and fun get-togethers.
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                        et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                        et dolore magna aliqua.
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <!-- quick link -->
+                        <!-- / widget gallery -->
+                        <!-- widget post -->
                         <div class="cws-widget">
-                            <div class="widget-title">Quick Links</div>
-                            <h3></h3>
+                            <div class="widget-title">Our News</div>
                             <div class='widget_carousel'>
                                 <div class='item'>
                                     <!-- post item -->
                                     <div class='post_item'>
                                         <div class='post_preview clearfix'>
-                                            <div class='post_title'><a href='#'>Home</a></div>
+                                            <a href='#' class='post_thumb_wrapp pic'><img class='post_thumb'
+                                                    src='pic/bfi_thumb/58x58-portfolio_7-304vqm0b4ukllinncov4ei.jpg'
+                                                    data-at2x='pic/bfi_thumb/58x58-portfolio_7-304vqm0b4ukllinncov4ei@2x.jpg'
+                                                    alt />
+                                                <div class='hover-effect'></div>
+                                                <div class='links'><span class='fa fa-link'></span></div>
+                                            </a>
+                                            <div class='post_title'><a href='#'>Lorem ipsum dolor sit</a></div>
+                                            <div class='post_content'>sed do eiusmod tempor incididunt<a
+                                                    href='#'>...</a>
+                                            </div>
+                                            <div class='post_date'>March 24, 2015</div>
                                         </div>
                                     </div>
                                     <!-- / post item -->
                                     <!-- post item -->
                                     <div class='post_item'>
                                         <div class='post_preview clearfix'>
-                                            <div class='post_title'><a href='#'>About us</a></div>
+                                            <a href='#' class='post_thumb_wrapp pic'><img class='post_thumb'
+                                                    src='pic/bfi_thumb/58x58-blog_3_col_3-304vqj49s4b9oehlhrm1hm.jpg'
+                                                    data-at2x='pic/bfi_thumb/58x58-blog_3_col_3-304vqj49s4b9oehlhrm1hm@2x.jpg'
+                                                    alt />
+                                                <div class='hover-effect'></div>
+                                                <div class='links'><span class='fa fa-link'></span></div>
+                                            </a>
+                                            <div class='post_title'><a href='#'>Lorem ipsum dolor sit</a></div>
+                                            <div class='post_content'>sed do eiusmod tempor incididunt<a
+                                                    href='#'>...</a></div>
+                                            <div class='post_date'>March 24, 2015</div>
                                         </div>
                                     </div>
                                     <!-- / post item -->
                                     <!-- post item -->
                                     <div class='post_item'>
                                         <div class='post_preview clearfix'>
-                                            <div class='post_title'><a href='#'>Apply</a></div>
+                                            <a href='#' class='post_thumb_wrapp pic'><img class='post_thumb'
+                                                    src='pic/bfi_thumb/58x58-portfolio_4-304vqkvlk7rwl2xsvw77yi.jpg'
+                                                    data-at2x='pic/bfi_thumb/58x58-portfolio_4-304vqkvlk7rwl2xsvw77yi@2x.jpg'
+                                                    alt />
+                                                <div class='hover-effect'></div>
+                                                <div class='links'><span class='fa fa-link'></span></div>
+                                            </a>
+                                            <div class='post_title'><a href='#'>Lorem ipsum dolor sit euismod</a>
+                                            </div>
+                                            <div class='post_content'>sed do eiusmod tempor incididunt<a
+                                                    href='#'>...</a></div>
+                                            <div class='post_date'>March 22, 2020</div>
                                         </div>
                                     </div>
-                                    <!-- post item -->
+                                </div>
+                                <div class='item'>
                                     <!-- post item -->
                                     <div class='post_item'>
                                         <div class='post_preview clearfix'>
-                                            <div class='post_title'><a href='#'>Program</a></div>
+                                            <div class='post_title'><a href='#'>Gallery post</a></div>
+                                            <div class='post_content'>sed do eiusmod tempor incididunt<a
+                                                    href='#'>...</a>
+                                            </div>
+                                            <div class='post_date'>March 20, 2020</div>
                                         </div>
                                     </div>
                                     <!-- / post item -->
                                     <!-- post item -->
                                     <div class='post_item'>
                                         <div class='post_preview clearfix'>
-                                            <div class='post_title'><a href='#'>Giving</a></div>
+                                            <a href='#' class='post_thumb_wrapp pic'><img class='post_thumb'
+                                                    src='pic/bfi_thumb/58x58-blog_3_col_2-304vqh8f5qbfzoaipru7ey.jpg'
+                                                    data-at2x='pic/bfi_thumb/58x58-blog_3_col_2-304vqh8f5qbfzoaipru7ey@2x.jpg'
+                                                    alt />
+                                                <div class='hover-effect'></div>
+                                                <div class='links'><span class='fa fa-link'></span></div>
+                                            </a>
+                                            <div class='post_title'><a href='#'>Ut wisi enim</a></div>
+                                            <div class='post_content'>sed do eiusmod tempor incididunt<a
+                                                    href='#'>...</a></div>
+                                            <div class='post_date'>February 28, 2020</div>
                                         </div>
                                     </div>
                                     <!-- / post item -->
                                     <!-- post item -->
                                     <div class='post_item'>
                                         <div class='post_preview clearfix'>
-                                            <div class='post_title'><a href='#'>Contact</a></div>
+                                            <a href='#' class='post_thumb_wrapp pic'><img class='post_thumb'
+                                                    src='pic/bfi_thumb/58x58-blog_3_col_1-304vqguumupvnj1wk6a8lm.jpg'
+                                                    data-at2x='pic/bfi_thumb/58x58-blog_3_col_1-304vqguumupvnj1wk6a8lm@2x.jpg'
+                                                    alt />
+                                                <div class='hover-effect'></div>
+                                                <div class='links'><span class='fa fa-link'></span></div>
+                                            </a>
+                                            <div class='post_title'><a href='#'>Image post</a></div>
+                                            <div class='post_content'>sed do eiusmod tempor incididunt<a
+                                                    href='#'>...</a>
+                                            </div>
+                                            <div class='post_date'>February 25, 2020</div>
                                         </div>
                                     </div>
                                     <!-- / post item -->
                                 </div>
                             </div>
                         </div>
-                        <!-- quick link -->
-                        <!-- contact us -->
+                        <!-- / widget post -->
+                        <!-- conatact form -->
                         <div class="cws-widget">
-                            <div class="widget-title">Contact Us</div>
-                            <h3></h3>
-                            <p>810 Illinois St,<br>
-                                (between 19th and 20th Street)
-                                <br>
-                                San Francisco,
-                                <br>
-                                CA - 94107</p>
-
-                            <p><strong>Phone: </strong>415.550.3300 <br>
-                                <strong>Fax: </strong>415.550.3301 <br>
-                                <strong>Email: </strong>admissions@potrerokids.org</p>
+                            <div class="widget-title">Shoot a Message</div>
+                            <div class="textwidget">
+                                <div role="form" class="cf" id="cf-f1705-o1" lang="en-US" dir="ltr">
+                                    <!-- <div class="screen-reader-response"></div> -->
+                                    <form action="php/contacts-process.php" method="post" class="cf-form contact-form"
+                                        novalidate="novalidate">
+                                        <p><span class="cf-form-control-wrap your-name"><input type="text" name="name"
+                                                    value="" size="60" class="" aria-required="true"
+                                                    aria-invalid="false" placeholder="Name" /></span></p>
+                                        <p><span class="cf-form-control-wrap your-email"><input type="email"
+                                                    name="email" value="" size="60" class="" aria-required="true"
+                                                    aria-invalid="false" placeholder="E-mail" /></span></p>
+                                        <p><span class="cf-form-control-wrap your-message"><textarea name="message"
+                                                    cols="55" rows="6" class="" aria-invalid="false"
+                                                    placeholder="Message"></textarea></span></p>
+                                        <p>
+                                            <input type="submit" value="Send" class="cf-form-control cf-submit" />
+                                        </p>
+                                    </form>
+                                    <div class="email_server_responce"></div>
+                                </div>
+                            </div>
                         </div>
-                        <!-- Contact us -->
+                        <!-- / contact form -->
                     </div>
                 </div>
             </footer>
             <!-- copyright -->
             <div class='copyrights_area'>
-
+                <!-- canvas -->
+                <div class='half_sin_wrapper'>
+                    <canvas class='footer_half_sin' data-bg-color='241, 90, 41' data-line-color='241, 90, 41'></canvas>
+                </div>
+                <!-- / canvas -->
                 <div class='container'>
                     <div class='copyrights_container'>
                         <div class='copyrights'>Copyrights ©2020: Potrero Kids</div>
