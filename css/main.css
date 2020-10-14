@@ -10320,3 +10320,6 @@ table th span, table td span {
     width: 100%;
     height: 100%;
 }
+.mb-30 {
+    margin-bottom: 30px;
+}
