@@ -212,7 +212,7 @@ div.woocommerce form p.form-row label:not(.checkbox),
 #searchform label.screen-reader-text,
 .widget_shopping_cart_content p,
 .woocommerce .woocommerce-tabs .shop_attributes th {
-    color:  #f4a795
+    color:  #45B39D
 }
 
 html,
@@ -298,13 +298,13 @@ input[type="radio"]:checked:before,
 .site_top_panel .site_top_panel_toggle:after,
 .footer_container .woocommerce-product-search:before,
 .scroll_top {
-    background-color: #f4a795;
+    background-color: #45B39D;
 }
 
 .tp-leftarrow.round,
 .tp-rightarrow.round,
 .rev_slider_wrapper {
-    background-color: #f4a795 !important;
+    background-color: #45B39D !important;
 }
 
 .news .media_part,
@@ -338,12 +338,12 @@ a:hover>.cws_fa_wrapper>i:not(.alt) + .ring,
 }
 
 .select2-choice {
-    border-color:  #f4a795 !important;
+    border-color:  #45B39D !important;
 }
 
 .select2-drop,
 .select2-drop-active {
-    border-color:  #f4a795 !important;
+    border-color:  #45B39D !important;
 }
 
 .post_info,
@@ -550,7 +550,7 @@ canvas.breadcrumbs {
 .woocommerce .media_part,
 ul.product_list_widget li a img,
 .price_slider_wrapper .price_slider {
-    border-color:  #f4a795;
+    border-color:  #45B39D;
 }
 
 .gridlist-toggle a:before,
@@ -560,12 +560,12 @@ div.woocommerce .cart_totals h2,
 .woocommerce .related.products h2,
 .cart_totals .amount,
 input[type=checkbox]:checked:before {
-    color:  #f4a795;
+    color:  #45B39D;
 }
 
 .cws-widget ul.product_list_widget>li>a,
 form.checkout h3 {
-    color:  #f4a795;
+    color:  #45B39D;
 }
 
 .button.add_to_cart_button,
@@ -578,7 +578,7 @@ ul.products li .media_part .rating_cont:before,
 ul.products li .media_part .rating_cont .button-shadow,
 .price_slider .ui-slider-range,
 .woocommerce-product-search:before {
-    background-color:  #f4a795;
+    background-color:  #45B39D;
 }
 
 .woocommerce ul.products h3,
@@ -2239,7 +2239,7 @@ HEADER
 }
 
 .header_mask {
-    background-color:  #f4a795;
+    background-color:  #45B39D;
     position: absolute;
     top: 0;
     left: 0;
@@ -4545,7 +4545,7 @@ img.image-type.noborder {
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
-    height: 375px;
+    height: 325px;
     justify-content: space-between;
 }
 
@@ -5811,13 +5811,21 @@ div.cf-response-output {
     position: relative;
     border-style: solid;
     border-width: 1px;
-    padding: 10px 20px 10px 80px;
-    min-height: 40px;
+    padding: 16px 20px 16px 40px;
+    min-height: auto;
     border-radius: 14px;
     color: #fff;
     background: #ad6eb0;
     margin-bottom: 15px;
     border: 0;
+}
+
+.msg_box_text {
+    color: #4b4b4b;
+}
+
+.msg_box_title, .msg_box_text ul li {
+    margin-bottom: 10px;
 }
 
 .cws_msg_box .content_section>.msg_box_text:last-child {
@@ -5844,7 +5852,7 @@ div.cf-response-output {
 
 .cws_msg_box.error-box,
 .cf-response-output.cf-validation-errors {
-    background: #ff7b7b;
+    background: #F5B7B1;
 }
 
 .cws_msg_box.error-box .icon_section i,
@@ -5868,15 +5876,15 @@ div.cf-response-output {
     z-index: 1;
     top: 50%;
     left: 50%;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
     border-style: solid;
     background: #fff;
     border-radius: 50%;
     font-size: 20px;
     margin-left: -20px;
-    margin-top: -22px;
+    margin-top: -20px;
     text-align: center;
     color: #ad6eb0;
     -webkit-box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.15);
@@ -5885,8 +5893,7 @@ div.cf-response-output {
 }
 
 .cws_msg_box .msg_box_title {
-    text-transform: uppercase;
-    font-size: 1.2em;
+    font-size: 2em;
     line-height: 1em;
     font-weight: 400;
 }
@@ -9687,7 +9694,7 @@ img.emoji {
 .widget.timetable_sidebar_box .box_header {
     margin-bottom: 0;
     font-family: 'Source Sans Pro', sans-serif !important;
-    color:  #f4a795!important;
+    color:  #45B39D!important;
 }
 
 .widget.timetable_sidebar_box .box_header:after {
@@ -9752,7 +9759,7 @@ img.emoji {
 
 table.tt_timetable thead th {
     color: #fff;
-    background-color:  #f4a795;
+    background-color:  #45B39D;
 }
 
 .tt_timetable .event {
@@ -9901,7 +9908,7 @@ table.tt_timetable thead th {
 
 .tt_event_hours li {
     border: 1px solid #d8d8d8;
-    border-left: 3px solid  #f4a795;
+    border-left: 3px solid  #45B39D;
     width: calc(50% - 15px);
     box-sizing: border-box;
 }
@@ -9930,7 +9937,7 @@ aside .tt_upcoming_events li .tt_upcoming_events_event_container {
     font-size: 19px;
     color: #9f9e9e;
     font-family: Dosis;
-    border-left: 3px solid  #f4a795;
+    border-left: 3px solid  #45B39D;
     height: auto;
     border-bottom: 1px solid #d8d8d8;
     border-right: 1px solid #d8d8d8;
@@ -9951,10 +9958,10 @@ aside .tt_upcoming_events li .tt_upcoming_events_event_container:hover .tt_event
 }
 
 .tt_upcoming_events li .tt_upcoming_events_event_container:hover {
-    background:  #f4a795;
-    border-top: 1px solid  #f4a795;
-    border-bottom: 1px solid  #f4a795;
-    border-right: 1px solid  #f4a795;
+    background:  #45B39D;
+    border-top: 1px solid  #45B39D;
+    border-bottom: 1px solid  #45B39D;
+    border-right: 1px solid  #45B39D;
 }
 
 .timetable_sidebar_box {
@@ -10231,6 +10238,16 @@ only screen and (min-device-pixel-ratio: 1.5) {
     border-color: #f15a29;
     padding: 2px;
 }
+
+.about-image img {
+    width: 100%;
+    position: relative;
+    border-radius: 18px;
+    border-style: solid;
+    border-color: #f15a29;
+    padding: 2px;
+}
+
 @media screen and (max-width: 1190px){
     .image-border img {
         width: 100%;
@@ -10243,6 +10260,9 @@ only screen and (min-device-pixel-ratio: 1.5) {
     }
 }
 @media screen and (max-width: 980px){
+    .testimonial {
+        height: auto;
+    }
     .image-border img {
         width: 100%;
         position: relative;
@@ -10254,6 +10274,9 @@ only screen and (min-device-pixel-ratio: 1.5) {
     }
 }
 @media screen and (max-width: 767px){
+    .testimonial {
+        height: auto;
+    }
     .image-border img {
         width: 100%;
         position: relative;

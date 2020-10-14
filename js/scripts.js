@@ -2245,7 +2245,7 @@ function revolution_slider() {
                     }
                 },
                 gridwidth: 1170,
-                gridheight: 650,
+                gridheight: 550,
                 lazyType: "none",
                 parallax: {
                     type: "mouse",
