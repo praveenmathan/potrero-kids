@@ -5821,7 +5821,7 @@ div.cf-response-output {
 }
 
 .msg_box_text {
-    color: #4b4b4b;
+    color: #f1f1f1;
 }
 
 .msg_box_title, .msg_box_text ul li {
@@ -5852,7 +5852,7 @@ div.cf-response-output {
 
 .cws_msg_box.error-box,
 .cf-response-output.cf-validation-errors {
-    background: #F5B7B1;
+    background: #45B39D;
 }
 
 .cws_msg_box.error-box .icon_section i,
@@ -10295,6 +10295,10 @@ only screen and (min-device-pixel-ratio: 1.5) {
 .ce a {
     font-weight: bold;
     color: #ea502b;
+}
+.ce .contact-link {
+    font-weight: bold;
+    color: #fff; 
 }
 table {
     margin: auto;
