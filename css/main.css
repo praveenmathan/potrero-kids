@@ -3923,7 +3923,7 @@ BLOG
 
 .pic .hover-effect {
     position: absolute;
-    background-color: #fff;
+    background-color: #000;
     top: 3px;
     bottom: 3px;
     right: 3px;
@@ -3948,7 +3948,7 @@ BLOG
 }
 
 .pic:hover .hover-effect {
-    opacity: 0.3;
+    opacity: 0.8;
 }
 
 .pic:hover .links_popup {
@@ -3968,10 +3968,10 @@ BLOG
 }
 
 .pic .links_popup {
-    height: 60px;
-    width: 160px;
-    left: calc(50% - 80px);
-    top: calc(50% - 30px);
+    height: 350px;
+    width: 250px;
+    left: 0;
+    top: 0;
 }
 
 .pic .links_popup.animate {
@@ -3979,8 +3979,6 @@ BLOG
     -moz-transform: translateZ(0);
     -ms-transform: translateZ(0);
     transform: translateZ(0);
-    -webkit-filter: url('#goo');
-    filter: url('../img/filter.svg#goo');
 }
 
 .pic .links .link_cont,
@@ -4066,12 +4064,12 @@ aside .pic .links_popup .link span {
 .pic .links_popup .link-toggle-button {
     background: transparent;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 60px;
-    height: 60px;
-    margin-top: -40px;
-    margin-left: -40px;
+    top: 0%;
+    left: 0%;
+    width: 250px;
+    height: auto;
+    margin-top: 0px;
+    margin-left: -10px;
     border: 0;
     padding: 10px;
     box-sizing: content-box;
